@@ -2,7 +2,6 @@ body {
     height:100%;
     background-attachment:fixed;
     background-size:cover;
-    background-image: url(AdobeStock_91717852.jpeg);
 }
 .main-wrapper {
     height:100%;
@@ -51,10 +50,11 @@ html,body{height:100%;}
     box-shadow: 0 10px 10px -10px #8c8c8c inset;
 }
 .stylish-hr { 
+    color: rgba(11, 94, 215, 0.0);
     padding-top: 4px;
     border : 0;
     height: 2px!important; 
-    background-image: linear-gradient(to right, #21292c, #0b5ed7, #0b5ed7, #21292c); 
+    background-image: linear-gradient(to right, rgba(11, 94, 215, 0.0), #0b5ed7, #0b5ed7, rgba(11, 94, 215, 0.0)); 
 }
 .sr-only {
     overflow:visible!important;
