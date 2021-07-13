@@ -38,7 +38,7 @@ color: white;margin-right: 16px;margin-top: 8px;opacity: 0.5;
 float: left;"/>
         <a href="#" @click="$parent.$parent.$parent.goto(2);">
             <span class="text-light">
-            Du hat bereits einen Account? <br />
+            Du hast bereits einen Account? <br />
             Jetzt anmelden!
             </span>
         </a>
