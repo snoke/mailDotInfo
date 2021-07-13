@@ -10,20 +10,26 @@
         v-model="email"
         type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" disabled>
       </div>
-      <div class="form-group">
+      <div class="form-group" id="formUsername">
         <label for="exampleInputName1" class="inputHelper" v-if="username!=''" style="float: left;">Nutzername</label>
         <input 
+        @focus="scrollTo('formUsername')"
         v-model="username"
         type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nutzername" @keyup="isEmailValid">
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1" class="inputHelper" v-if="password!=''" style="float: left;">Passwort</label>
+      <div class="form-group" id="formPassword">
+        <label
+        @focus="scrollTo('formPassword')"
+         for="exampleInputPassword1" 
+        class="inputHelper" v-if="password!=''" style="float: left;">Passwort</label>
         <input 
         v-model="password"
         type="password" class="form-control" id="exampleInputPassword1" placeholder="Passwort">
       </div>
-      <div class="form-group">
-        <label for="exampleInputPassword2" class="inputHelper" v-if="password2!=''" style="float: left;">Passwort wiederholen</label>
+      <div class="form-group" id="formPassword2">
+        <label 
+        @focus="scrollTo('formPassword2')"
+        for="exampleInputPassword2" class="inputHelper" v-if="password2!=''" style="float: left;">Passwort wiederholen</label>
         <input 
         v-model="password2"
         type="password" class="form-control" id="exampleInputPassword2" placeholder="Passwort wiederholen">
@@ -75,6 +81,9 @@ export default {
     mounted() {
   },
     methods: {
+      scrollTo(id) {
+        document.getElementById(id).scrollIntoView();
+      },
       isEmailValid: function() {
       this.username = this.username.replace(/[^0-9a-zA-Z-_.]/g, "")  
   	}

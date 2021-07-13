@@ -2,7 +2,7 @@
   <div class="main" style="min-height:100%;">
     <div class="w-100" style="padding-top:25px;"></div>
     <h1>
-      <span class="text-primary" style="padding:0px;">m</span>
+      <span class="text-primary" style="padding:0px;">M</span>
       <span class="text-light" style="margin-left:-0.25em;">ail</span>
       <span class="text-primary" style="padding:0px;margin-left:-0.25em;">.</span>
       <span class="text-light" style="margin-left:-0.25em;">info</span>

@@ -5,15 +5,17 @@
     <hr class="w-25 stylish-hr" style="margin:auto;" />
       <b-card text-variant="white" class="text-center main-card"  >
         <b-card-text><form>
-      <div class="form-group">
+      <div class="form-group" id="formUsername">
         <label for="exampleInputName1" class="inputHelper" v-if="username!=''" style="float: left;">Nutzername</label>
         <input 
+        @focus="scrollTo('formUsername')"
         v-model="username"
         type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nutzername">
       </div>
-      <div class="form-group">
+      <div class="form-group"  id="formEmail">
         <label for="exampleInputPassword1" class="inputHelper" v-if="password!=''" style="float: left;">Passwort</label>
         <input 
+        @focus="scrollTo('formEmail')"
         v-model="password"
         type="password" class="form-control" id="exampleInputPassword1" placeholder="Passwort">
       </div>
@@ -59,6 +61,9 @@ export default {
     watch: {
     },
     methods: {
+      scrollTo(id) {
+        document.getElementById(id).scrollIntoView();
+      }
   }
 };
 </script>
