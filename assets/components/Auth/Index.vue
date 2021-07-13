@@ -8,7 +8,7 @@
       <span class="text-light" style="margin-left:-0.5em;">info</span>
       <span class="text-primary" style="padding:0px;"></span>
     </h1>
-    <hr class="w-25 stylish-hr" style="margin:auto;" />
+    <hr class="w-25 stylish-hr main-hr" style="margin:auto;margin-top: -20px;" />
     <div  class="d-flex justify-content-center  flex-wrap"  style="padding-top:10px;">
       <a href="#" @click="$parent.$parent.$parent.goto(1)">
       <b-card text-variant="white" class="text-center teaser-card" >
@@ -41,7 +41,7 @@
       <span class="text-primary" >F</span>
       <span class="text-light" style="margin-left:-0.5em;">lexibel</span>
       </h2></b-card-title>
-        <b-card-text >über die Website oder beliebigen Mail-Client!</b-card-text>
+        <b-card-text >per Webmailer oder beliebigen Mail-Client!</b-card-text>
       </b-card>
       <b-card text-variant="white" class="text-center teaser-card" >
         <b-card-title><h2 class="teaser-title">

@@ -88,6 +88,8 @@ html,body{height:100%;}
     border : 0;
     height: 2px!important; 
     background-image: linear-gradient(to right, rgba(11, 94, 215, 0.0), #0b5ed7, #0b5ed7, rgba(11, 94, 215, 0.0)); 
+    z-index: 1;
+    position: relative;
 }
 .sr-only {    
     font-family: 'Marck Script';

@@ -2,7 +2,7 @@
   <div class="main" style="min-height:100%;">
     <div class="w-100" style="padding-top:25px;"></div>
     <h1><span  class="text-primary" style="font-size:1.5em">R</span>egistrieren</h1>
-    <hr class="w-25 stylish-hr" style="margin:auto;" />
+    <hr class="w-25 stylish-hr main-hr" style="margin:auto;margin-top: -20px;" />
       <b-card text-variant="white" class="text-center main-card" >
         <b-card-text><form>
       <div class="form-group">

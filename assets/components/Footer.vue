@@ -52,14 +52,14 @@
                         Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. <br>
                         Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.<br /><br><strong>Kontakt</strong> <br>Stefan Sander<br> 
                         Poststraße 5<br> 
-                        50389 Wesseling <br>
+                        50389 Wesseling <br> <br>
                         E-Mail: <a href="mailto:stefan@mail.info">stefan@mail.info</a></p>
                     </div>
                 </div>
                 <b-button class="mt-3 w-100" block @click="$bvModal.hide('bv-modal-imprint')">Schließen</b-button>
             </b-modal>
         </div>
-            <hr class="w-25 stylish-hr" style="margin:auto;margin-top: 10px;" />
+            <hr class="w-25 stylish-hr" style="margin:auto;margin-top: 0px;" />
       </b-card-text>
       </b-card>
     </div>
