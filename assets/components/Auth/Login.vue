@@ -27,6 +27,8 @@
         <a href="#" @click="$parent.$parent.$parent.goto(1);">
             <span class="text-light">
             Noch keinen Account?<br />
+            </span>
+            <span class="text-primary">
             Jetzt gratis E-Mailadresse sichern!
             </span>
         </a>

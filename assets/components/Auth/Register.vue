@@ -43,6 +43,8 @@
         <a href="#" @click="$parent.$parent.$parent.goto(2);">
             <span class="text-light">
             Du hast bereits einen Account? <br />
+            </span>
+            <span class="text-primary">
             Jetzt anmelden!
             </span>
         </a>
