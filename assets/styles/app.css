@@ -169,3 +169,6 @@ h1 {
     
   text-shadow: 5px 5px 25px #000,-5px 5px 16px #000;
 }
+.modal-dialog {
+    max-width: 95%!important;
+}
