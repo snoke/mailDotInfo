@@ -1,4 +1,24 @@
-body {
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: rgb(66, 82, 88, 0.9) rgba(33, 41, 44,0.9);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgba(33, 41, 44,0.9);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(66, 82, 88, 0.9);
+    border-radius: 32px;
+  }
+  body {
     height:100%;
     background-attachment:fixed;
     background-size:cover;
