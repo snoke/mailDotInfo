@@ -24,18 +24,12 @@
       </div>
     </form>
       <div class="signup-teaser d-flex justify-content-center ">
-      <font-awesome-icon icon="clipboard-list" class="text-primary" style="font-size: 1.75em;
-color: white;margin-right: 16px;margin-top: 8px;opacity: 0.5;
-float: left;"/>
         <a href="#" @click="$parent.$parent.$parent.goto(1);">
             <span class="text-light">
             Noch keinen Account?<br />
             Jetzt gratis E-Mailadresse sichern!
             </span>
         </a>
-      <font-awesome-icon icon="pen" class="text-primary" style="font-size: 1.75em;
-color: white;margin-left: 16px;margin-top: 8px;opacity: 0.5;
-float: left;"/>
       </div></b-card-text>
       </b-card>
     

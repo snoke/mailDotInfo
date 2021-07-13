@@ -56,6 +56,7 @@ data() {
         this.$refs.myCarousel.setSlide(index)
       },
       onSlideStart(slide) {
+        $('.sr-only').hide(400)
         $('#carousel-1___BV_inner_>*').css('opacity',1)
         $('#carousel-1___BV_inner_>.active').animate({
           opacity: 0,
@@ -65,6 +66,8 @@ data() {
         this.sliding = true
       },
       onSlideEnd(slide) {
+        setTimeout(function () { $('.sr-only').show(400) }, 400)
+          
         this.sliding = false
         var nextSlide=slide+1
         var prevSlide=slide-1
