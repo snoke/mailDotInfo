@@ -101,7 +101,7 @@ html,body{height:100%;}
     text-decoration:none;
     position:relative!important;  
     /*font-size:0.35rem;*/
-  text-shadow: 2px 2px 0px #000,-2px 2px 5px #000;
+  text-shadow: 2px 2px 3px #000,-2px 2px 5px #000;
   color:white;
 }
 .banner_img {
@@ -129,19 +129,19 @@ html,body{height:100%;}
 .card {
     background-color: rgb(33, 41, 44,0.9);
 }
+.white {
+    color:#fff!important
+}
 .blue {
-    color:#0b5ed7;
+    color:#0b5ed7!important;
 }
 
 .footer-link {
     
-    color:white;
+    color:white!important;
     font-family: 'Marck Script';
     -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .35));
     filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .35));
-}
-.footer-link:hover{
-    color: #0b5ed7 !important;
 }
 .signup-teaser,.login-teaser {
     text-align:center;
@@ -213,4 +213,7 @@ h1 {
 }
 .modal-dialog {
     max-width: 95%!important;
+}
+.carousel-control-next,.carousel-control-prev{
+    opacity: 0.6 !important;
 }

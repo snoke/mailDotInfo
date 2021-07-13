@@ -1,7 +1,7 @@
 <template>
   <div class="main" style="min-height:100%;">
     <div class="w-100" style="padding-top:25px;"></div>
-    <h1><span  class="text-primary" style="font-size:1.5em">R</span>egistrieren</h1>
+    <h1><span  class="text-primary" style="font-size:2em;margin-right:-0.1em;">R</span>egistrieren</h1>
     <hr class="w-25 stylish-hr main-hr" style="margin:auto;margin-top: -20px;" />
       <b-card text-variant="white" class="text-center main-card" >
         <b-card-text><form>
@@ -15,7 +15,7 @@
         <input 
         @focus="scrollTo('formUsername')"
         v-model="username"
-        type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nutzername" @keyup="isEmailValid">
+        type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nutzername" @keyup="isEmailValid" @change="isEmailValid">
       </div>
       <div class="form-group" id="formPassword">
         <label
@@ -41,11 +41,11 @@
       <div class="login-teaser d-flex justify-content-center ">      
 
         <a href="#" @click="$parent.$parent.$parent.goto(2);">
-            <span class="blue" style="margin-right: -0.5em;">
+            <span class="blue" style="margin-right: -0.5em;font-size:2em;">
             D
             </span>
-            <span class="">
-            u hast bereits einen Account? <br /><span class="blue"  style="margin-right: -0.5em;">
+            <span class="white">
+            u hast bereits einen Account? <br /><span class="blue"  style="margin-right: -0.6em;font-size:2em;">
             J
             </span>etzt anmelden!
             </span>

@@ -1,7 +1,7 @@
 <template>
   <div class="main" style="min-height:100%;">
     <div class="w-100" style="padding-top:25px;"></div>
-    <h1><span  class="text-primary" style="font-size:1.5em">A</span>nmelden</h1>
+    <h1><span  class="text-primary" style="font-size:2em;margin-right:-0.1em;">A</span>nmelden</h1>
     <hr class="w-25 stylish-hr main-hr" style="margin:auto;margin-top: -20px;" />
       <b-card text-variant="white" class="text-center main-card"  >
         <b-card-text><form>
@@ -25,13 +25,13 @@
     </form>
       <div class="signup-teaser d-flex justify-content-center ">
         <a href="#" @click="$parent.$parent.$parent.goto(1);">
-            <span class="blue"  style="margin-right: -0.5em;">
+            <span class="blue"  style="margin-right: -0.5em;font-size:2em;">
             N
             </span>
-            <span class="">
-            och keinen Account?</span><br /> <span class="blue"  style="margin-right: -0.5em;">
+            <span class="white">
+            och keinen Account?</span><br /> <span class="blue"  style="margin-right: -0.6em;font-size:2em;">
             J
-            </span><span class="">etzt gratis E-Mailadresse sichern!
+            </span><span class="white">etzt gratis E-Mailadresse sichern!
             </span>
         </a>
       </div></b-card-text>

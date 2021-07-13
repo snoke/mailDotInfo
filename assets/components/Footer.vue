@@ -3,7 +3,7 @@
       <b-card text-variant="white" class="text-center footer-card" >
         <b-card-text>
         <div class="d-flex justify-content-center">
-            <a href="#" @click="$bvModal.show('bv-modal-imprint')" style=";" class="footer-link"><span class="blue">I</span>mpressum</a>
+            <a href="#" @click="$bvModal.show('bv-modal-imprint')" style=";" class="footer-link"><span class="blue" style="font-size:1.5em;margin-right: -0.1em;">I</span>mpressum</a>
             <b-modal id="bv-modal-faq" hide-footer>
                 <template #modal-title>
                 <div class="d-block text-center">
