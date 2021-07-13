@@ -87,8 +87,8 @@ html,body{height:100%;}
     padding-top: 4px;
     border : 0;
     height: 2px!important; 
-    background-image: linear-gradient(to right, rgba(11, 94, 215, 0.0), #0b5ed7, #0b5ed7, rgba(11, 94, 215, 0.0)); 
     z-index: -1; 
+    background-image: linear-gradient(to right, rgba(11, 94, 215, 0.0), #0b5ed7, #0b5ed7, rgba(11, 94, 215, 0.0)); 
     position: relative;
 }
 .sr-only {    
