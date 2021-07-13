@@ -41,11 +41,13 @@
       <div class="login-teaser d-flex justify-content-center ">      
 
         <a href="#" @click="$parent.$parent.$parent.goto(2);">
-            <span class="text-light">
-            Du hast bereits einen Account? <br />
+            <span class="blue" style="margin-right: -0.5em;">
+            D
             </span>
-            <span class="text-primary">
-            Jetzt anmelden!
+            <span class="">
+            u hast bereits einen Account? <br /><span class="blue"  style="margin-right: -0.5em;">
+            J
+            </span>etzt anmelden!
             </span>
         </a>
       </div></b-card-text>

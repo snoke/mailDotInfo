@@ -25,11 +25,13 @@
     </form>
       <div class="signup-teaser d-flex justify-content-center ">
         <a href="#" @click="$parent.$parent.$parent.goto(1);">
-            <span class="text-light">
-            Noch keinen Account?<br />
+            <span class="blue"  style="margin-right: -0.5em;">
+            N
             </span>
-            <span class="text-primary">
-            Jetzt gratis E-Mailadresse sichern!
+            <span class="">
+            och keinen Account?</span><br /> <span class="blue"  style="margin-right: -0.5em;">
+            J
+            </span><span class="">etzt gratis E-Mailadresse sichern!
             </span>
         </a>
       </div></b-card-text>
