@@ -59,7 +59,7 @@
                 <b-button class="mt-3 w-100" block @click="$bvModal.hide('bv-modal-imprint')">Schließen</b-button>
             </b-modal>
         </div>
-            <hr class="w-25 stylish-hr" style="margin:auto;margin-top: 0px;" />
+            <hr class="w-25 stylish-hr" style="margin:auto;margin-top: 0px;position:static;padding-top: 0px;" />
       </b-card-text>
       </b-card>
     </div>
