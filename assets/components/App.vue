@@ -22,9 +22,9 @@ export default {
       imageIndex: 0,
       images: [
         'AdobeStock_91717852.jpeg',
+        /*
         'AdobeStock_247520870.jpeg',
         'AdobeStock_90488874.jpeg',
-        /*
         'AdobeStock_154437497.jpeg',
         'AdobeStock_94538497.jpeg',
         'AdobeStock_103545648.jpeg',
@@ -40,18 +40,20 @@ export default {
     this.preloadImages();
   },
 
-    methods: {    
-      preloadImages() {
-        this.images.forEach(url => new Image().src = url);
-      },
-      switchBackground() {
-        $('body').css('background-image', 'url('+ this.images[this.imageIndex]+')');
+  methods: {    
+    preloadImages() {
+      this.images.forEach(url => new Image().src = url);
+    },
+    switchBackground() {
+      $('body').css('background-image', 'url('+ this.images[this.imageIndex]+')');
+      if (this.images.length>1) {
         // now 'this' is referencing the Vue object and not the 'setTimeout' scope
         setTimeout(() => this.switchBackground(), 5000);
         this.imageIndex++;
         if (this.imageIndex==this.images.length) {
           this.imageIndex = 0;
         }
+      }
     }
   }
 };
