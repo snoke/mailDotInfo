@@ -61,8 +61,8 @@
         </div>
             <hr class="w-25 stylish-hr" style="margin:0px auto;position:static;padding-top: 0px;" />
         <div style="font-size: 1em;font-family: 'Marck Script';-webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .35));
-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .35));">    
-      <font-awesome-icon icon="copyright" style="font-size:0.8em;" class="blue"/> 2021 <a href="https://www.stefan-sander.online" target="_blank"><span class="white " style="font-family: 'Marck Script';font-size:1.5em;"><span class="blue">S</span>ander</span></a></div>
+filter: drop-shadow( 3px 3px 7px rgba(0, 0, 0, .35));">    
+      <font-awesome-icon icon="copyright" style="font-size:0.8em;" class="blue"/> 2021 </div>
       </b-card-text>
       </b-card>
     </div>
