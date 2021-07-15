@@ -29,6 +29,7 @@
     border-radius: 32px;
   }
   body {
+    overflow-x: hidden;
     overflow-y: scroll;
     background: rgba(33, 41, 44,1);
     height:100%;
