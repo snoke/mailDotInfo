@@ -3,5 +3,5 @@ fancy freemail service auth and landing page with carousel site navigation using
 
 Live Demo: <a href="https://maildotinfo.stefan-sander.online" target="_blank">https://maildotinfo.stefan-sander.online</a>
 
-![alt text](https://github.com/snoke/mailDotInfo/blob/master/maildotinfo.png?raw=true)
+![alt text](https://github.com/snoke/mailDotInfo/blob/main/maildotinfo.png?raw=true)
 
